@@ -1,4 +1,6 @@
 import React from 'react';
 import { render } from 'react-dom';
 
-render(<h3>test</h3>, document.getElementById('root'));
+import App from './components/App.jsx';
+
+render(<App />, document.getElementById('root'));
